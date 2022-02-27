@@ -6,7 +6,7 @@ int main(int argc, char const *argv[])
 {
     string nombre;
 
-    cout << "Ingrese su nombre:";
+    cout << "Ingrese su nombre JODAMBA:";
     cin >> nombre;
 
     cout << endl;
