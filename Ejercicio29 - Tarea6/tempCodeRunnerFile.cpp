@@ -1,1 +1,0 @@
- impuesto = (subtotal * 0.15);
