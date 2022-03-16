@@ -42,7 +42,8 @@ int main(int argc, char** argv){
     total = subtotal - calculoDescuento;
     }
     // Se introduce N si la factura no es extensa y se aplicara el impuesto 
-	if(estaExenta == 'N'  || estaExenta  == 'n' ){
+	if(estaExenta == 'N'  || estaExenta  == 'n' )
+    {
     calculoDescuento = (subtotal*descuento)/100;
     calculoImpuesto = (subtotal - calculoDescuento) * impuesto;
     total = subtotal - calculoDescuento + calculoImpuesto;

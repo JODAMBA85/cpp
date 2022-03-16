@@ -10,7 +10,8 @@
 
 using namespace std;
 
-int main(int argc, char** argv) {
+int main(int argc, char** argv) 
+{
 	// Datos de entrada
     double subtotal = 0;
     double total = 0;

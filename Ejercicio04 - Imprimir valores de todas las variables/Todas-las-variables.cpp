@@ -11,7 +11,7 @@
 using namespace std;
 
 int main(int argc, char const *argv[])
-{
+{   
     bool valorBoolean;
     valorBoolean = true;
 
@@ -28,7 +28,7 @@ int main(int argc, char const *argv[])
     cout << "El valor double es: " << valorDouble << endl;
     cout << "El valor string es: " << valorString << endl;
     cout << "El valor char es: " << valorChar << endl;
-
+    
 
     return 0;
 }
