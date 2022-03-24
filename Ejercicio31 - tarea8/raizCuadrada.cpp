@@ -15,9 +15,7 @@ int main(int argc, char const *argv[])
 {
     float numero=0;
     float resultado=0;
-    
-    
-
+   
     cout<<"Ingrese un numero:";
 	cin>>numero ;
     resultado=(sqrt(numero));
