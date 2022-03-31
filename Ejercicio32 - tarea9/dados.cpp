@@ -28,7 +28,8 @@ int main(int argc, char const *argv[])
    numero= rand() % 50+1;   cout<< "segundo numero del dado:"<<numero;
    cout <<endl;
 
-   cout <<"¿Desea jugar nuevamente? (1.si  2.no):" ;
+   cout <<"¿Desea jugar nuevamente? " << endl ;
+   cout <<"1.SI O 2.NO" << endl;
    cin>>respuesta;
    }
 
